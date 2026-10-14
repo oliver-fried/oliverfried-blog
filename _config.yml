@@ -1,0 +1,20 @@
+title: Oliver Fried
+description: Oliver Fried's personal website and essays.
+url: https://oliverfried.org
+baseurl: ""
+permalink: /essays/:title/
+timezone: Europe/Madrid
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
