@@ -1,6 +1,8 @@
 ---
 ---
 
+<img src="{{ '/profile%20pic.png' | relative_url }}" alt="Oliver Fried" width="160" height="160">
+
 Hi there!
 
 I'm Oliver Fried.
