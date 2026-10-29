@@ -5,9 +5,13 @@
 
 Hi there!
 
-I'm Oliver Fried.
+I'm Oliver Fried. This is a home for my essays that I want to share with the world.
 
-This is my personal website, and a home for my essays.
+I'm currently a Senior Software Engineer at ZOA Suite, an insurtech startup building data solutions for insurance brokerages in Spain. I'm passionate about making AI work for us, not the other way around, and building the abstractions needed to make that happen.
+
+Before ZOA, I built deterministic tooling for extracting insurance policy data. Earlier, I worked as a data consultant for enterprise clients in Barcelona.
+
+---
 
 <ul>
 {% for post in site.posts %}
