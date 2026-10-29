@@ -22,4 +22,8 @@ th, td { padding: 8px; border: 1px solid var(--muted); }
 .skip-link { position: absolute; top: -100px; }
 .skip-link:focus { top: 8px; background: var(--bg); padding: 8px; }
 @media (max-width: 480px) { header, main, footer { padding-left: 12px; padding-right: 12px; } nav ul { gap: 28px; } }
-
+.profile { display: grid; grid-template-columns: minmax(0, 1fr) 160px; gap: 32px; align-items: start; margin: 24px 0; }
+.profile-text p:first-child { margin-top: 0; }
+.profile-text p:last-child { margin-bottom: 0; }
+.profile-photo { display: block; width: 160px; }
+@media (max-width: 560px) { .profile { grid-template-columns: 1fr; gap: 24px; } .profile-photo { grid-row: 1; } }
