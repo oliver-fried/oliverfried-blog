@@ -11,7 +11,7 @@
 <img class="profile-photo" src="{{ '/profile%20pic.png' | relative_url }}" alt="Oliver Fried" width="160" height="160">
 </section>
 
-<hr>
+<h2>Essays</h2>
 
 <ul>
 {% for post in site.posts %}
