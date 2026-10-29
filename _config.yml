@@ -8,6 +8,7 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-redirect-from
 defaults:
   - scope:
       path: ""
@@ -18,3 +19,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+
