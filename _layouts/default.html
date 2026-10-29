@@ -18,7 +18,6 @@
 <main id="content">
 {% if page.collection == 'posts' %}
 <article><h1>{{ page.title | escape }}</h1>
-<p class="meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%Y-%m-%d' }}</time>{% if page.tags.size > 0 %} · {{ page.tags | join: ', ' | escape }}{% endif %}</p>
 {{ content }}
 <p><a href="{{ '/' | relative_url }}">← All essays</a></p></article>
 {% else %}{{ content }}{% endif %}
@@ -26,6 +25,14 @@
 <footer><a href="https://github.com/oliver-fried">github</a> | <a href="{{ '/feed.xml' | relative_url }}">rss</a></footer>
 </body>
 </html>
+
+
+
+
+
+
+
+
 
 
 
