@@ -14,19 +14,22 @@
 <a class="skip-link" href="#content">Skip to content</a>
 <header><nav aria-label="Main navigation"><ul>
 <li><a href="{{ '/' | relative_url }}">Oliver Fried</a></li>
-<li><a href="{{ '/essays/' | relative_url }}">Essays</a></li>
 </ul></nav></header>
 <main id="content">
 {% if page.collection == 'posts' %}
 <article><h1>{{ page.title | escape }}</h1>
 <p class="meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%Y-%m-%d' }}</time>{% if page.tags.size > 0 %} · {{ page.tags | join: ', ' | escape }}{% endif %}</p>
 {{ content }}
-<p><a href="{{ '/essays/' | relative_url }}">← All essays</a></p></article>
+<p><a href="{{ '/' | relative_url }}">← All essays</a></p></article>
 {% else %}{{ content }}{% endif %}
 </main>
 <footer><a href="https://github.com/oliver-fried">github</a> | <a href="{{ '/feed.xml' | relative_url }}">rss</a></footer>
 </body>
 </html>
+
+
+
+
 
 
 
